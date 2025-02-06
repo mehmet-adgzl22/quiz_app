@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Quiz App</title>
+    <link rel="shortcut icon" href="./images/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <a href="#" class="logo"> 
+                <img src="./images/logo1.png" alt="" width="100px">
+            </a>
+         <nav class="navbar">
+            <a href="#" >Anasayfa</a>
+            <a href="https://www.linkedin.com/in/mehmet-ad%C4%B1g%C3%BCzel22/" target="_blank" class="active">İletişim</a>
+            <a href="#">Hakkımızda</a>
+            <a href="#">Servisler</a>
+         
+         </nav>   
+        </header>
+
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>ZeyMas</h1>
+                    <div class="quiz-header">
+                        <span>Bilgini Test Etme Zamanı </span>
+                        <span class="header-score">Skor: 0 / 10</span>
+                    </div>
+                    <h2 class="question-text">HTML ne anlama geliyor?</h2>
+                    <div class="option-list">
+                       <!---------------
+                        <div class="option">
+                            <span>A. Hyper Type Multi Language</span>
+                        </div>
+                        <div class="option">
+                            <span>B. Hyper Text Multiple Language</span>
+                        </div>
+                        <div class="option">
+                            <span>C. Hyper Text Markup Language</span>
+                        </div>
+                        <div class="option">
+                            <span>D. Home Text Multi Language</span>
+                        </div> --------->
+                    </div>
+                    <div class="quiz-footer">
+                        <span class="question-total">1 of 5 Questions</span>
+                        <button class="next-btn">İleri</button>
+                    </div>
+                </div>
+                <div class="result-box">
+                    <h2>Yarışma Sonucu !
+                    </h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+
+                        <span class="score-text">Puanınız 10 üzerinden 0</span>
+                    </div>
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Tekrar Dene</button>
+                        <button class="goHome-btn">Anasayfa</button>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="home">
+                <div class="home-content">
+                    <h1>Bilgi Yarışması</h1>
+                    <p>Uygulamamız kullanıcıların çeşitli kategorilerde testler çözerek bilgilerini ölçebileceği eğlenceli ve interaktif bir platformdur. Gerçek zamanlı puanlama, zamanlı sınavlar ve kişiselleştirilmiş test seçenekleri ile öğrenmeyi daha keyifli hale getirir.</p>
+                    <button class="start-btn"> Devam Et </button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+<div class="popup-info">
+    <h2>Yarışma Hakkında</h2>
+    <span class="info">1.  İslami bilgiyi artıran eğitici bir yarışmadır.</span>
+    <span class="info">2. Kur’an, hadis, siyer ve fıkıh gibi konuları içerir.</span>
+    <span class="info">3. Bireysel veya takım halinde sorulara cevap verilir.</span>
+    <span class="info">4. Bilgi, motivasyon ve sosyal dayanışma sağlar.</span>
+    <span class="info">5. Kur’an, hadis, siyer ve fıkıh gibi konuları  pekiştirir.</span>
+
+    <div class="btn-group">
+        <button class="info-btn exit-btn">Çıkış</button>
+        <a href="#" class="info-btn continue-btn">Başla</a>
+    </div>
+</div>
+
+    <script src="./questions.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
