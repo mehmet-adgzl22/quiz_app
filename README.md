@@ -27,3 +27,6 @@ Bu proje, kullanıcılara çeşitli kategorilerde bilgi yarışması sunan inter
 - **JavaScript**: Etkileşimli öğeler
 
 --- 
+
+## Make Quiz App Gif
+![quiz-ezgif com-gif-maker](https://github.com/user-attachments/assets/d3491027-112c-4281-bfbd-8a518859da67)
